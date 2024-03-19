@@ -1,0 +1,44 @@
+.josh{
+    background-color: black;
+}
+
+p.josh{
+    background-color: gray;
+}
+
+h1.josh + p{
+    background-color: black;
+}
+
+.josh.george{
+    padding: 2em;
+}
+
+main > h1{
+    color: green;
+}
+
+h1{
+    color: red;
+    color: red;
+}
+
+h1 ~ p{
+    color: blueviolet;
+}
+
+body h1+p{
+    color: gray;
+}
+
+main>p{
+    color: aqua;
+}
+
+*{
+    font-size: 10px;
+}
+
+#third{
+    background-color: goldenrod;
+}
